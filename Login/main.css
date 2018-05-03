@@ -1,0 +1,78 @@
+body{
+    background: rgb(243, 243, 243);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Raleway', sans-serif;
+   margin: 0px;
+}
+.bigContainer{
+    z-index: 99;
+    margin: 0;
+    height: 100%;
+    margin-top: -9vh;
+    padding: 4vh;
+    background-color: rgba(0, 124, 128, 0.555);
+    display: none;
+}
+.container{ 
+    z-index: 40;
+    transition: 8s all;
+    display: none;
+    margin: auto;
+    margin-top: 4vh; 
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    height: 90vh;
+    border-radius: 15px; 
+    box-shadow: 7px 7px 20px rgb(0, 123, 128);
+}
+.container>*{
+    margin-left: 40px;
+    padding: 50px;   
+}
+.container>header{
+    
+    font-size: 50px;
+    
+}
+form>*{
+    margin:15px;
+    /* margin-left: 4vw; */
+    display: block;
+}
+form>input{
+    
+    height: 30px;
+    width: 231px;
+    padding-left: 4px;
+    padding-top: 3px;
+    padding-bottom: 0px;   
+    outline: none;
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+    border: none;
+    border-bottom: 2px solid rgb(0, 123, 128);
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgb(0, 123, 128);
+    /* border-radius: 10px; */
+}
+
+#openLogin{
+    height: 60px;
+    width: 70px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    float: right;
+}
+
+#login{
+    height: 30px;
+    width: 50px;
+}
+
+
+.logo{
+
+    font-size: 18px;
+}
