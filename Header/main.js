@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $("#menu").click(function(){
+        $("#nav").fadeToggle();
+       $("#outOfNav").fadeToggle();
+    });
+});
+$(document).ready(function(){
+    $("#outOfNav").click(function(){
+        $("#nav").fadeToggle("slow");
+       $("#outOfNav").fadeToggle();
+    });
+});
